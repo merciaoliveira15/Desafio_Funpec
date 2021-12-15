@@ -3,7 +3,7 @@ Library   SeleniumLibrary
 
 *** Variables ***
 ${URL}     #search
-${BROWSER}  chrome
+${BROWSER}  Chrome
 
 *** Keywords ***
 
@@ -22,12 +22,11 @@ Cheque se a busca retornou resultados
 
 Acesse o terceiro resultado
    Click Element    //*[@id="rso"]/div[3]
-   sleep           3
    Click Element   XPath=( //h3[@class="LC20lb MBeuO DKV0Md"])[3]
 
 
 Verifique se é mostrada a página esperada
    Page Should Contain   Robot
-   Sleep   3
+
 Feche o navegador
    Close Browser

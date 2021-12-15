@@ -10,5 +10,3 @@ Caso de teste: Buscar por Robot Framework no Google e entrar no terceiro resulta
    Acesse o terceiro resultado
    Verifique se é mostrada a página esperada
    Feche o navegador
-
-*** Keywords ***
